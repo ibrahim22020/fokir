@@ -1,0 +1,544 @@
+@media screen and (max-width: 768px) {
+    .navbar-container {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .navbar-logo {
+        padding-left: 20;
+    }
+
+    .navbar ul {
+        width: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        padding-right: 20;
+
+    }
+
+    .homeCaption h3 {
+        font-size: 22px;
+    }
+
+    .homeCaption h1 {
+        color: #ff305b;
+        font-size: 38px;
+        font-weight: bold;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 10;
+    }
+
+    .homeCaption h4 
+    {
+        font-size: 18px;
+    }
+
+
+.AboutContainer
+{
+ 
+    margin: 50px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+.Aboutimage
+{
+    width: 100%;
+    border: none;
+    margin: auto;
+    padding: 30;
+}
+.AboutImageInner
+{
+    width:100%;
+    transform: translate(0px,0px);
+   
+}
+.servicesheaderInner h2 , .portfolioHeaderInner h2 ,.feedbackHeaderInner h2 ,.blogHeaderInner h2,.contactUsHeaderInner h2
+{
+    font-size: 30px;
+}
+
+
+.AboutCaption
+{
+    margin: auto;
+    padding: 0 30;
+    width: 100%;
+    text-align:left;
+}
+.AboutCaption h2
+{
+    font-size: 24px;
+}
+.AboutCaption ul
+{
+    width: 100%;
+}
+.AboutCaption ul li
+{
+    width: 100%;
+}
+.download-cv-btn .btn
+{
+    padding: 10 12;
+}
+
+.single-serviceContaier
+{
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.single-service
+{
+    width: 100%;
+    margin-bottom: 10;
+    text-align: center;
+}
+
+.portfolio-pic-container
+{
+    width: 100%;
+    padding:0 15 30;
+}
+
+
+.facts
+{
+    background-color: #f1f1f1;
+    padding: 100 0;
+    display: flex;
+    justify-content: center;
+}
+.factsContainer
+{
+    flex-wrap: wrap;
+}
+.singlefacts
+{
+
+    width: 100%;
+    padding: 10;
+    margin: 20;
+    text-align: center;
+    
+}
+
+
+
+.feedback
+{
+    padding: 100px 0px;
+}
+
+
+
+.singleClient
+{
+    width: 100%;
+}
+.clientInner
+{
+    flex-wrap: wrap;
+    padding: 20 0;
+}
+.clientImg
+{
+    width: 100%;
+    text-align: center;
+}
+.clientImg img
+{
+    width: 30%;    
+}
+.clientCaption
+{
+    width: 100%;
+}
+
+
+.blog
+
+{
+    padding: 100px 10px;
+
+}
+
+.blogsContainer
+{
+    flex-wrap: wrap;
+}
+.singleBlog
+{
+    width: 100%;
+    padding: 30 0;
+}
+
+
+.row
+{
+    width: 90%;
+}
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width:769px  ) and (max-width: 992px) 
+{
+
+
+    .navbar-container {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .navbar-logo {
+        padding-left: 20;
+    }
+
+   
+
+    .homeCaption h3 {
+        font-size: 26px;
+    }
+
+    .homeCaption h1 {
+        color: #ff305b;
+        font-size: 45px;
+        font-weight: bold;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 10;
+    }
+
+    .homeCaption h4 
+    {
+        font-size: 20px;
+    }
+
+
+.AboutContainer
+{
+ 
+    margin: 50px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+.Aboutimage
+{
+    width: 75%;
+    border: none;
+    margin: auto;
+    padding: 30;
+}
+.AboutImageInner
+{
+    width:100%;
+    transform: translate(0px,0px);
+   
+}
+
+
+
+.AboutCaption
+{
+    margin: auto;
+    padding: 0 30;
+    width: 75%;
+    text-align:left;
+}
+.AboutCaption h2
+{
+    font-size: 28px;
+}
+.AboutCaption ul
+{
+    width: 100%;
+}
+.download-cv-btn .btn
+{
+    padding: 10 12;
+}
+.servicesheaderInner h2 , .portfolioHeaderInner h2 ,.feedbackHeaderInner h2 ,.blogHeaderInner h2,.contactUsHeaderInner h2
+{
+    font-size: 30px;
+}
+
+
+.single-serviceContaier
+{
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.single-service
+{
+    width: 100%;
+    margin-bottom: 10;
+    text-align: center;
+}
+
+.portfolio-pic-container
+{
+    width: 100%;
+    padding:0 15 30;
+}
+
+
+.facts
+{
+    background-color: #f1f1f1;
+    padding: 100 0;
+    display: flex;
+    justify-content: center;
+}
+.factsContainer
+{
+    flex-wrap: wrap;
+}
+.singlefacts
+{
+
+    width: 100%;
+    padding: 10;
+    margin: 20;
+    text-align: center;
+    
+}
+
+
+
+.feedback
+{
+    padding: 100px 0px;
+}
+
+
+
+.singleClient
+{
+    width: 100%;
+}
+.clientInner
+{
+    flex-wrap: wrap;
+    padding: 20 0;
+}
+.clientImg
+{
+    width: 100%;
+    text-align: center;
+}
+.clientImg img
+{
+    width: 30%;    
+}
+.clientCaption
+{
+    width: 100%;
+}
+
+
+.blog
+
+{
+    padding: 100px 10px;
+
+}
+
+.blogsContainer
+{
+    flex-wrap: wrap;
+}
+.singleBlog
+{
+    width: 100%;
+    padding: 30 0;
+}
+
+
+.row
+{
+    width: 90%;
+}
+
+
+}
+
+@media screen and (min-width:993px  ) and (max-width: 1200px) 
+{
+
+    .navbar-container {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .navbar-logo {
+        padding-left: 20;
+    }
+
+   
+
+    .homeCaption h1 {
+        color: #ff305b;
+        font-size: 60px;
+        font-weight: bold;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 10;
+    }
+
+    .homeCaption h4 
+    {
+        font-size: 24px;
+    }
+
+
+.AboutContainer
+{
+ 
+    margin: 50px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+.Aboutimage
+{
+    width: 50%;
+    border: none;
+    margin: auto;
+    padding: 30;
+}
+.AboutImageInner
+{
+    width:100%;
+    transform: translate(0px,0px);
+   
+}
+
+
+
+.AboutCaption
+{
+    margin: auto;
+    padding: 0 30;
+    width: 50%;
+    text-align:left;
+}
+.AboutCaption h2
+{
+    font-size: 30px;
+}
+.AboutCaption ul
+{
+    width: 100%;
+}
+.download-cv-btn .btn
+{
+    padding: 10 20;
+}
+
+.single-serviceContaier
+{
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.single-service
+{
+    width: 50%;
+    margin: 10 0;
+    padding: 0 15;
+
+    text-align: center;
+}
+
+.portfolio-pic-container
+{
+    width: 50%;
+    padding:0 15 30;
+}
+
+
+.facts
+{
+    background-color: #f1f1f1;
+    padding: 100 0;
+    display: flex;
+    justify-content: center;
+}
+.factsContainer
+{
+    flex-wrap: wrap;
+}
+.singlefacts
+{
+
+    width: 50%;
+    padding: 20;
+    text-align: center;
+    
+}
+
+
+
+.feedback
+{
+    padding: 100px 0px;
+}
+
+
+
+.singleClient
+{
+    width: 80%;
+}
+.clientInner
+{
+    flex-wrap: wrap;
+    padding: 20 0;
+    justify-content: space-between;
+}
+.clientImg
+{
+    width: 30%;
+    text-align: center;
+}
+.clientImg img
+{
+    width: 60%;    
+}
+.clientCaption
+{
+    width: 60%;
+}
+
+
+.blog
+
+{
+    padding: 100px 10px;
+
+}
+
+.blogsContainer
+{
+    flex-wrap: wrap;
+}
+.singleBlog
+{
+    width: 50%;
+    padding: 30 20;
+}
+
+
+.row
+{
+    width: 80%;
+}
+
+
+}
